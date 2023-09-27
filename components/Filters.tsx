@@ -16,7 +16,7 @@ const Filters = () => {
 
       newUrl = formUrlQuery({
         params: searchParams.toString(),
-        keyToRemove: "category",
+        keysToRemove: ["category"],
         value: null,
       });
     } else {
